@@ -19,6 +19,12 @@ export default function Home() {
             <a>I still need an achor tag for links?</a>
           </Link>
         </h1>
+        <h1 className="title">
+          Learn about our glorious leader{' '}
+          <Link href="/pug/peggy-pug">
+            <a>Peggy Pug</a>
+          </Link>
+        </h1>
 
         <p className="description">
           Get started by editing <code>pages/index.js</code>
