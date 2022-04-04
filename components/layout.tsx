@@ -10,7 +10,16 @@ import utilStyles from '../styles/utils.module.css'
 const name = 'Pug Lug Peggy'
 export const siteTitle = 'Peggy Pug Sample Website'
 
-const Layout = ({ children, home }) => {
+// const Layout = ({ children, home }) => {
+  // export default Layout
+
+export default function Layout({
+  children,
+  home
+}: {
+  children: React.ReactNode
+  home?: boolean
+}) {
   return (
     <div className={styles.container}>
       <Head>
@@ -76,6 +85,3 @@ const Layout = ({ children, home }) => {
     </div>
   )
 }
-
-
-export default Layout
